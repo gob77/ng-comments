@@ -1,0 +1,15 @@
+#mainForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#datosDeContacto {
+  display: flex;
+  flex-direction: row;
+}
+
+#datosDeReclamo {
+  display: flex;
+  flex-direction: row;
+}
