@@ -1,15 +1,11 @@
-#mainForm {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.navbar {
+  background-color: #032556;
 }
 
-#datosDeContacto {
-  display: flex;
-  flex-direction: row;
+.nav-link {
+  color: white !important;
 }
 
-#datosDeReclamo {
-  display: flex;
-  flex-direction: row;
+#logo {
+  width: 100px;
 }

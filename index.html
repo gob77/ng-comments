@@ -16,27 +16,34 @@
     <title>Document</title>
   </head>
   <body>
-    <div ng-controller="testCtrl">
-      {{ test }}
-    </div>
-    <div class="dropdown">
-      <button
-        class="btn btn-secondary dropdown-toggle"
-        type="button"
-        id="dropdownMenuButton"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-        data-toggle="dropdown"
-      >
-        Dropdown button
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div>
+    <header id="header d-flex align-items-center justify-content-between">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt="konecta logo"
+            id="logo"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reclamos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Denuncias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#">Emergencias</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5>Generador de comentarios</h5>
+        </div>
+      </nav>
+    </header>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
     <script src="app.js"></script>
   </body>
